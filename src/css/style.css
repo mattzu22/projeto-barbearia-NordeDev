@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+
+.home-pag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.722), rgba(0, 0, 0, 0.5)),
+    url(../images/barbearianew.webp) center center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.home-pag .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  width: 1250px;
+  max-width: 100%;
+  margin-top: 80px;
+  background-color: #272727;
+  font-weight: 600;
+}
+
+.home-pag .header .logo {
+  max-width: 120px;
+  height: 80px;
+  width: 100%;
+}
+
+.home-pag .header .navegation .menu {
+  display: flex;
+  gap: 90px;
+  font-size: 17px;
+}
+
+.home-pag .header .bnt-header {
+  color: white;
+  padding: 18px 20px;
+  background-color: #965338;
+}
+
+.home-pag .section-initial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh - 160px);
+  text-align: center;
+  width: 650px;
+}
+
+.home-pag .section-initial h2 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(197, 190, 190);
+  /* filter: drop-shadow(0 0 0.5rem black); */
+}
+
+.home-pag .section-initial p {
+  font-size: 100px;
+  /* text-transform: uppercase; */
+  color: rgb(255, 255, 255);
+  /* filter: drop-shadow(0 0 0.5rem black); */
+}
+
+.home-pag .section-initial .btn {
+  font-size: 19px;
+  text-transform: uppercase;
+  background-color: #965338;
+  width: 300px;
+  padding: 14px 0;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background-color: #272727;
+}
+
+.about-me .description {
+  width: 550px;
+}
+
+.about-me .description h2 {
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 100%;
+  color: #965338;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+}
+
+.about-me .description h3 {
+  font-size: 25px;
+  font-weight: 700;
+  max-width: 100%;
+  text-transform: uppercase;
+}
+
+.about-me .description h3::after {
+  content: "";
+  width: 80px;
+  display: block;
+  border-bottom: 4px solid #965338;
+  padding-bottom: 20px;
+}
+
+.about-me .description p {
+  font-size: 1.6rem;
+  line-height: 30px;
+  margin-top: 20px;
+  color: #827c7c;
+}
+
+.about-me .description .btn {
+  background-color: #965338;
+  padding: 7px 16px;
+  margin-top: 2rem;
+  display: inline-block;
+  font-size: 1.8rem;
+}
+
+.about-me .info-schedules {
+    display: flex;
+}
+
+.about-me .info-schedules .imgs img {
+  margin-left: 16px;
+  width: 250px;
+  height: 350px;
+}
+
+.about-me .info-schedules .schedules h3 {
+  color: #965338;
+  font-weight: 300;
+  letter-spacing: 5px;
+  font-size: 1.7rem;
+}
+
+.about-me .info-schedules .schedules  {
+    margin-left: 20px;
+}
+  
+.about-me .info-schedules .schedules p {
+  font-size: 4rem;
+}
+
+.about-me .info-schedules .schedules p::after {
+  content: "";
+  width: 80px;
+  display: block;
+  border-bottom: 4px solid #965338;
+  padding-bottom: 20px;
+}
+
+.about-me .info-schedules .schedules .list-schedules {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 30px;
+}
+
+.about-me .info-schedules .schedules .list-schedules li{
+    display: flex;
+    justify-content: space-between;
+    color: #827c7c;
+}
+
+.about-me .info-schedules .schedules .list-schedules li span{
+    color: #965338;
+}
+
+
